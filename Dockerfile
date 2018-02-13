@@ -3,7 +3,6 @@ MAINTAINER Borodin Gregory <grihabor@gmail.com>
 
 WORKDIR /project
 
-ADD ../catch-hook-telegram-bot/catchbot .
-RUN pip3 install .
+RUN pip3 install https://github.com/grihabor/catch-hook-telegram-bot
 
-CMD ["catchbot", "run"]
+CMD ["catchbot", "start"]
