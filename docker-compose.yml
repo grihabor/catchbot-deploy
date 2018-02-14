@@ -8,3 +8,4 @@ services:
       - CATCHBOT_PORT=7654
     env_file:
       - secrets/conf.env
+    build: .
